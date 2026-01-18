@@ -1,1 +1,3 @@
-See GitHub: <https://github.com/stakiran/collaboration-modules>
+No Index.
+
+目次や静的ウェブサイトを使うつもりはありません。
