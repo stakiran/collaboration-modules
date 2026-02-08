@@ -5,7 +5,7 @@
 - Direct Appointment
     - マネージャーの予定表の空いているところに、誰でも自由に予定を追加していいとする
 - AMA(Ask Me Anything)
-- RMA(Request Me Anything
+- RMA(Request Me Anything)
 - オフィスアワー
 - マネージャー・チケット
     - チケットとは「マネージャーに 1 時間分の検討と回答をお願いできる」もの
