@@ -1,5 +1,6 @@
 ﻿.memo/
 .context/
+.log/
 
 # codexが内部で実行しているpowershellがたまに？吐く
 debug.log
