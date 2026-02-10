@@ -56,13 +56,20 @@ def main() -> int:
         f.write(f"- thread-id: `{thread_id}`\n")
         f.write(f"- turn-id: `{turn_id}`\n\n")
 
+        # ユーザー入力:
+        #   スキル入れると $ が混ざってハイライト壊れるので、コードブロックにしとく
+        # Codex回答:
+        #   Markdownハイライトで読みたいので、コードブロックは外しとく
+
         f.write("### User\n\n```text\n")
         f.write(safe_text(input_messages))
         f.write("\n```\n\n")
 
-        f.write("### Codex\n\n```text\n")
+        #f.write("### Codex\n\n```text\n")
+        f.write("### Codex\n\n")
         f.write(last_assistant)
-        f.write("\n```\n")
+        f.write("\n")
+        #f.write("\n```\n")
 
     try:
         state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
