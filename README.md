@@ -125,4 +125,4 @@ AI: いくつかのモジュールが参考になりそうです。
 
 ## AI エージェントの利用
 
-このリポジトリは AI エージェント（Claude Code, ChatGPT, Cursor 等）に読み込ませて使うことを前提としている。詳細な指示は [AGENTS.md](AGENTS.md) を参照。
+このリポジトリは AI エージェント（Claude Code, ChatGPT, Cursor 等）に読み込ませて使うことを前提としている。詳細な指示は [CLAUDE.md](CLAUDE.md) を参照。
